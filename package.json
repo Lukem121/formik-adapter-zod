@@ -1,13 +1,13 @@
 {
-  "name": "zod-formik-adapter",
+  "name": "formik-adapter-zod",
   "version": "1.1.0",
   "description": "An adapter of zod object validation to Formik validation schema",
   "main": "./dist/index.js",
-  "author": "Matheus Robert Lichtnow <matheusrobert8@gmail.com>",
+  "author": "Luke Askew <lukeask@hotmail.co.uk>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/robertLichtnow/zod-formik-adapter"
+    "url": "https://github.com/lukem121/formik-adapter-zod"
   },
   "scripts": {
     "build": "tsc",

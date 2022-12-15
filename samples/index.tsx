@@ -1,7 +1,7 @@
-import React from 'react';
-import { Formik } from 'formik';
-import { z } from 'zod';
-import { toFormikValidationSchema } from 'zod-formik-adapter';
+import React from "react";
+import { Formik } from "formik";
+import { z } from "zod";
+import { toFormikValidationSchema } from "formik-adapter-zod";
 
 const Schema = z.object({
   name: z.string(),
@@ -11,7 +11,7 @@ const Schema = z.object({
 const initialValues = {
   name: "",
   age: 1,
-}
+};
 
 export const SampleForm = () => (
   <Formik
