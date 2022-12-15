@@ -1,6 +1,6 @@
 {
   "name": "formik-adapter-zod",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An adapter of zod object validation to Formik validation schema",
   "main": "./dist/index.js",
   "author": "Luke Askew <lukeask@hotmail.co.uk>",
