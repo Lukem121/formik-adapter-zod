@@ -13,7 +13,7 @@
     "build": "tsc",
     "test": "jest --coverage",
     "test:ci": "jest --ci --coverage",
-    "build:clean": "rm -rf dist && yarn build"
+    "build:clean": "yarn build"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
